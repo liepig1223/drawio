@@ -1,10 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" version="26.2.9">
   <diagram name="第 1 页" id="iFTytl6uKdS_-YQdWqbp">
-    <mxGraphModel dx="969" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1148" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YdQ3DIITMf_mQ7HVQbmI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-1" target="YdQ3DIITMf_mQ7HVQbmI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-1" target="YdQ3DIITMf_mQ7HVQbmI-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YdQ3DIITMf_mQ7HVQbmI-1" value="创建订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -30,6 +33,54 @@
         </mxCell>
         <mxCell id="YdQ3DIITMf_mQ7HVQbmI-8" value="物流服务消费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-12" target="YdQ3DIITMf_mQ7HVQbmI-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-17" value="30min后自动转到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YdQ3DIITMf_mQ7HVQbmI-16">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-12" value="延迟队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-14" target="YdQ3DIITMf_mQ7HVQbmI-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-14" value="支付订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-15" target="YdQ3DIITMf_mQ7HVQbmI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-15" value="取消队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-18" value="修改订单是否以支付状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-20" target="YdQ3DIITMf_mQ7HVQbmI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-20" target="YdQ3DIITMf_mQ7HVQbmI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-20" target="YdQ3DIITMf_mQ7HVQbmI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-27" value="如果取消订单，这些逻辑都要反掉" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YdQ3DIITMf_mQ7HVQbmI-25">
+          <mxGeometry x="-0.4322" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-20" value="根据订单状态是否以支付等状态决定&lt;br&gt;&lt;div&gt;已支付：不取消&lt;/div&gt;&lt;div&gt;未支付：开始取消订单逻辑&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="512.5" width="180" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
