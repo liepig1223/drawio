@@ -7,11 +7,29 @@
         <mxCell id="YdQ3DIITMf_mQ7HVQbmI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-1" target="YdQ3DIITMf_mQ7HVQbmI-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-1" value="创建订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-3" target="YdQ3DIITMf_mQ7HVQbmI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-3" target="YdQ3DIITMf_mQ7HVQbmI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-3" target="YdQ3DIITMf_mQ7HVQbmI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-3" value="往队列:pay、stock、logistics发送消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="410" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-6" value="支付服务消费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-7" value="库存服务消费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-8" value="物流服务消费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="525" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
