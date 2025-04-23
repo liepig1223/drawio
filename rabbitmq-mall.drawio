@@ -97,7 +97,7 @@
         <mxCell id="YdQ3DIITMf_mQ7HVQbmI-20" value="根据订单状态是否以支付等状态决定&lt;br&gt;&lt;div&gt;已支付：不取消&lt;/div&gt;&lt;div&gt;未支付：开始取消订单逻辑&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="512.5" width="180" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="wtpxiTihWD4_3fa8npJH-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;怎么实现数据最终一致性&lt;/h1&gt;问题1：刚好在取消逻辑执行的时候，客户支付了，那客户岂不是给了钱但是客户的单找不到了" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wtpxiTihWD4_3fa8npJH-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;怎么实现数据最终一致性&lt;/h1&gt;&lt;div&gt;问题1：刚好在取消逻辑执行的时候，客户支付了，那客户岂不是给了钱但是客户的单找不到了&lt;/div&gt;&lt;div&gt;解决方案：对读取加X锁&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="680" width="560" height="150" as="geometry" />
         </mxCell>
       </root>
