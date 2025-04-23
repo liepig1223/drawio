@@ -7,8 +7,23 @@
         <mxCell id="YdQ3DIITMf_mQ7HVQbmI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-1" target="YdQ3DIITMf_mQ7HVQbmI-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wtpxiTihWD4_3fa8npJH-4" value="绑定" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YdQ3DIITMf_mQ7HVQbmI-4">
+          <mxGeometry x="0.48" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YdQ3DIITMf_mQ7HVQbmI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-1" target="YdQ3DIITMf_mQ7HVQbmI-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wtpxiTihWD4_3fa8npJH-2" value="创建订单交换机" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YdQ3DIITMf_mQ7HVQbmI-13">
+          <mxGeometry x="-0.9102" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wtpxiTihWD4_3fa8npJH-3" value="绑定" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YdQ3DIITMf_mQ7HVQbmI-13">
+          <mxGeometry x="-0.1306" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="YdQ3DIITMf_mQ7HVQbmI-1" value="创建订单" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="300" width="120" height="60" as="geometry" />
@@ -22,12 +37,7 @@
         <mxCell id="YdQ3DIITMf_mQ7HVQbmI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YdQ3DIITMf_mQ7HVQbmI-3" target="YdQ3DIITMf_mQ7HVQbmI-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wtpxiTihWD4_3fa8npJH-1" value="这些服务都绑定队列create-order" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YdQ3DIITMf_mQ7HVQbmI-11">
-          <mxGeometry x="-0.9265" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-3" value="往队列:create-order发送消息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="YdQ3DIITMf_mQ7HVQbmI-3" value="往队列:pay、stock、logistics发送消息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="325" y="410" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YdQ3DIITMf_mQ7HVQbmI-6" value="支付服务消费" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
