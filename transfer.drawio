@@ -60,10 +60,10 @@
         <mxCell id="uTj_L4GP4vtBzImo_Wq9-14" value="消息确认回调，修改转账记录为成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uTj_L4GP4vtBzImo_Wq9-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;转账流程问题汇总及解决方案&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Q1.发送转账记录失败怎么办&lt;/p&gt;&lt;p&gt;A1：使用mq的发布者确认，如果发送转账记录到mq失败则回滚事务&lt;/p&gt;&lt;p&gt;Q2.出现消息堆积。如果发送过的转账记录没被消费，状态没变成成功，那又会再一次发送这条转账记录到mq&lt;/p&gt;&lt;p&gt;A2：新增一个转账记录状态&quot;转账记录成功发送到mq&quot;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBorderColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="uTj_L4GP4vtBzImo_Wq9-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;转账流程问题汇总及解决方案&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Q1.发送转账记录失败怎么办&lt;/p&gt;&lt;p&gt;A1：使用mq的发布者确认，如果发送转账记录到mq失败则回滚事务&lt;/p&gt;&lt;p&gt;Q2.出现消息堆积。如果发送过的转账记录没被消费，状态没变成成功，那又会再一次发送这条转账记录到mq&lt;/p&gt;&lt;p&gt;A2：新增一个转账记录状态&quot;转账记录成功发送到mq&quot;，用3表达&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBorderColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="680" y="100" width="420" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="uTj_L4GP4vtBzImo_Wq9-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;转账记录状态说明&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;0：成功&lt;/p&gt;&lt;p&gt;1：失败&lt;/p&gt;&lt;p&gt;2：转账记录成功发送到mq&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBorderColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="uTj_L4GP4vtBzImo_Wq9-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;转账记录状态说明&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;0：成功&lt;/p&gt;&lt;p&gt;1：失败&lt;/p&gt;&lt;p&gt;2：转账记录未发送&lt;/p&gt;&lt;p&gt;3：转账记录成功发送到mq&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBorderColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="110" y="320" width="150" height="180" as="geometry" />
         </mxCell>
       </root>
