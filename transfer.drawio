@@ -42,7 +42,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uTj_L4GP4vtBzImo_Wq9-7" value="&lt;div&gt;发送转账记录，并将转&lt;/div&gt;&lt;div&gt;账记录状态修改成2&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="uTj_L4GP4vtBzImo_Wq9-7" value="&lt;div&gt;发送转账记录，并将转&lt;/div&gt;&lt;div&gt;账记录状态修改成3&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="317.5" y="395" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="uTj_L4GP4vtBzImo_Wq9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uTj_L4GP4vtBzImo_Wq9-8" target="uTj_L4GP4vtBzImo_Wq9-14">
