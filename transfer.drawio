@@ -51,8 +51,8 @@
         <mxCell id="uTj_L4GP4vtBzImo_Wq9-8" value="消费转账记录，为收款账户添加余额" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="610" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uTj_L4GP4vtBzImo_Wq9-11" value="事务回滚" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="590" y="420" width="120" height="40" as="geometry" />
+        <mxCell id="uTj_L4GP4vtBzImo_Wq9-11" value="记录一下报错，但是没修改数据库不影响。转账记录状态还是未发送，可以再下次定时任务执行时再次被处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="405" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="uTj_L4GP4vtBzImo_Wq9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uTj_L4GP4vtBzImo_Wq9-14" target="uTj_L4GP4vtBzImo_Wq9-1">
           <mxGeometry relative="1" as="geometry" />
