@@ -48,8 +48,8 @@
         <mxCell id="Nz396IvyJtMQi-NrtlgB-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uTj_L4GP4vtBzImo_Wq9-8" target="uTj_L4GP4vtBzImo_Wq9-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uTj_L4GP4vtBzImo_Wq9-8" value="&lt;div&gt;消费转账记录，为收款账户添加余额。&lt;/div&gt;&lt;div&gt;消息确认回调，修改转账记录为成功。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="295" y="610" width="210" height="70" as="geometry" />
+        <mxCell id="uTj_L4GP4vtBzImo_Wq9-8" value="&lt;div align=&quot;left&quot;&gt;1.消费转账记录，为收款账户添加余额。&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.消息确认回调，修改转账记录为成功。&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3.消息确认&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;步骤1，2执行后先提交事务，再ack。可能出现1，2执行成功ack失败。所以步骤1，2要做幂等性设计&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="282.5" y="610" width="237.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="uTj_L4GP4vtBzImo_Wq9-11" value="记录一下报错，但是没修改数据库不影响。转账记录状态还是未发送，可以再下次定时任务执行时再次被处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="550" y="405" width="220" height="70" as="geometry" />
