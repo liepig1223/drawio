@@ -4,68 +4,61 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9lZnTC0JRyicG2jKXbfs-1" target="9lZnTC0JRyicG2jKXbfs-2">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="9lZnTC0JRyicG2jKXbfs-1" target="9lZnTC0JRyicG2jKXbfs-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9lZnTC0JRyicG2jKXbfs-1" target="9lZnTC0JRyicG2jKXbfs-4">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="9lZnTC0JRyicG2jKXbfs-1" target="9lZnTC0JRyicG2jKXbfs-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9lZnTC0JRyicG2jKXbfs-1" target="9lZnTC0JRyicG2jKXbfs-15">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="9lZnTC0JRyicG2jKXbfs-1" target="9lZnTC0JRyicG2jKXbfs-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-1" value="采购单审核" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-1" value="采购单审核" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="504.75" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="9lZnTC0JRyicG2jKXbfs-2" target="9lZnTC0JRyicG2jKXbfs-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="9lZnTC0JRyicG2jKXbfs-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="849" y="285" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-2" value="1.业务需求" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-2" value="1.分析业务需求" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="246.49999999999994" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="9lZnTC0JRyicG2jKXbfs-4" target="9lZnTC0JRyicG2jKXbfs-10">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="9lZnTC0JRyicG2jKXbfs-4" target="9lZnTC0JRyicG2jKXbfs-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9lZnTC0JRyicG2jKXbfs-4" target="9lZnTC0JRyicG2jKXbfs-12">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="9lZnTC0JRyicG2jKXbfs-4" target="9lZnTC0JRyicG2jKXbfs-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-4" value="2.实体类" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-4" value="2.实体类" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="523" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;p class=&quot;ds-markdown-paragraph&quot;&gt;采购订单根据金额需要不同级别的审批：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p class=&quot;ds-markdown-paragraph&quot;&gt;≤ 5000元：部门经理审批&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class=&quot;ds-markdown-paragraph&quot;&gt;5000~20000元：部门总监审批&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class=&quot;ds-markdown-paragraph&quot;&gt;20000~100000元：财务总监审批&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class=&quot;ds-markdown-paragraph&quot;&gt;&amp;gt;=100000元：CEO审批&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p class=&quot;ds-markdown-paragraph&quot;&gt;审批流程需支持灵活配置（可跳过某些环节）&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class=&quot;ds-markdown-paragraph&quot;&gt;审批记录需完整保存&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class=&quot;ds-markdown-paragraph&quot;&gt;支持审批人委托机制（当前环节审批人没时间处理，将审批任务顺延到下一级）&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=default;perimeterSpacing=1;glass=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="850" y="149.99999999999983" width="310" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-10" value="采购单实体类" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-10" value="采购单实体类" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="463" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-12" value="审核记录实体类" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-12" value="审核记录实体类" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="583" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="9lZnTC0JRyicG2jKXbfs-15" target="9lZnTC0JRyicG2jKXbfs-19">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="9lZnTC0JRyicG2jKXbfs-15" target="9lZnTC0JRyicG2jKXbfs-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9lZnTC0JRyicG2jKXbfs-15" target="9lZnTC0JRyicG2jKXbfs-21">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="9lZnTC0JRyicG2jKXbfs-15" target="9lZnTC0JRyicG2jKXbfs-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9lZnTC0JRyicG2jKXbfs-15" target="9lZnTC0JRyicG2jKXbfs-23">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9lZnTC0JRyicG2jKXbfs-15" target="9lZnTC0JRyicG2jKXbfs-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-15" value="3.审核处理器" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-15" value="3.审核处理器" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="763" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-17" value="业务需求V1&lt;p&gt;1.单线路审批&lt;/p&gt;&lt;p&gt;2.不固定审批层级，最多四层（部门经理-&amp;gt;部门总监-&amp;gt;财务总监-&amp;gt;CEO）&lt;br&gt;&lt;/p&gt;&lt;p&gt;3.读取配置,为审批层级设置责任处理器&lt;/p&gt;&lt;p&gt;4.支持审批人委托机制（当前环节审批人因其他原因没法处理，将审批任务顺延到下一级）&lt;/p&gt;&lt;p&gt;5.审批记录需完整保存&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="50" y="70" width="390" height="480" as="geometry" />
-        </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-19" value="抽象审核处理器" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-19" value="抽象审核处理器" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="703" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-21" value="审核处理器实现" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-21" value="审核处理器实现" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="823" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-23" value="审核处理器构造器" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9lZnTC0JRyicG2jKXbfs-23" value="审核处理器构造器" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="940" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="9lZnTC0JRyicG2jKXbfs-25" value="责任链动态修改并发问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="690" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
