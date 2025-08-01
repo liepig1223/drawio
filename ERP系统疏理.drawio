@@ -67,6 +67,9 @@
         <mxCell id="XjHJWzj3tPjJtDDLOWkv-20" value="库存" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="280" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="XjHJWzj3tPjJtDDLOWkv-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XjHJWzj3tPjJtDDLOWkv-23" target="XjHJWzj3tPjJtDDLOWkv-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XjHJWzj3tPjJtDDLOWkv-23" value="库存盘点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="276" y="190" width="120" height="80" as="geometry" />
         </mxCell>
@@ -75,6 +78,9 @@
         </mxCell>
         <mxCell id="XjHJWzj3tPjJtDDLOWkv-27" value="&lt;div&gt;1.库存存着物料，所以有物料编码、名称、属性（如长宽高等）。&lt;/div&gt;&lt;div&gt;2.库存量相关（即时库存、安全库存、最高库存）&lt;/div&gt;&lt;div&gt;3.仓库相关（仓库仓位）&lt;/div&gt;&lt;div&gt;4.采购在途&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="310" y="350" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XjHJWzj3tPjJtDDLOWkv-29" value="盘点条件：&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;仓库ID，部门ID，时间，是否只考虑即时库存，型材，物料(以及是否包括没做过库存单的物料、隐藏的物料)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="265" width="170" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
