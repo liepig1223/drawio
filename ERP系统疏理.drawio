@@ -43,6 +43,9 @@
         <mxCell id="XjHJWzj3tPjJtDDLOWkv-2" value="入库" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="520" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="XjHJWzj3tPjJtDDLOWkv-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XjHJWzj3tPjJtDDLOWkv-4" target="XjHJWzj3tPjJtDDLOWkv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XjHJWzj3tPjJtDDLOWkv-4" value="出库" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="650" width="120" height="80" as="geometry" />
         </mxCell>
@@ -58,8 +61,8 @@
         <mxCell id="XjHJWzj3tPjJtDDLOWkv-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.143;entryY=0.218;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bcbLDdxJfO9VDAEmfC5w-1" target="XjHJWzj3tPjJtDDLOWkv-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XjHJWzj3tPjJtDDLOWkv-16" value="&lt;div&gt;入库类型：采购入库、委外入库&lt;/div&gt;&lt;div&gt;保存的信息：&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;strong&gt;&lt;span class=&quot;ne-text&quot;&gt;单头&lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;ne-text&quot;&gt;：仓库id、单据类型、管理部门、供货商、客户、经手人、发货人、领料人、业务员、采购类型（现购、赊购）、合同编号、运输方式、发货地址、收货地址、总金额、已付金额&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;明细：" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="170" y="620" width="330" height="200" as="geometry" />
+        <mxCell id="XjHJWzj3tPjJtDDLOWkv-16" value="&lt;div&gt;入库类型：采购入库、委外入库&lt;/div&gt;&lt;div&gt;出库类型：领料出库、委外出库&lt;br&gt;&lt;/div&gt;&lt;div&gt;保存的信息：&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;strong&gt;&lt;span class=&quot;ne-text&quot;&gt;单头&lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;ne-text&quot;&gt;：仓库id、单据类型、管理部门、供货商、客户、经手人、发货人、领料人、业务员、采购类型（现购、赊购）、合同编号、运输方式、发货地址、收货地址、总金额、已付金额&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;明细：单据号、物料类型、物料、物料属性、开票信息、报废信息、单位信息、" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="171" y="620" width="330" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
