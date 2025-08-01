@@ -73,7 +73,7 @@
         <mxCell id="XjHJWzj3tPjJtDDLOWkv-25" value="库存结帐" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="110" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XjHJWzj3tPjJtDDLOWkv-27" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="XjHJWzj3tPjJtDDLOWkv-27" value="&lt;div&gt;1.库存存着物料，所以有物料编码、名称、属性（如长宽高等）。&lt;/div&gt;&lt;div&gt;2.库存量相关（即时库存、安全库存、最高库存）&lt;/div&gt;&lt;div&gt;3.仓库相关（仓库仓位）&lt;/div&gt;&lt;div&gt;4.采购在途&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="310" y="350" width="200" height="110" as="geometry" />
         </mxCell>
       </root>
