@@ -49,8 +49,11 @@
         <mxCell id="XjHJWzj3tPjJtDDLOWkv-4" value="出库" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="870" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="XjHJWzj3tPjJtDDLOWkv-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XjHJWzj3tPjJtDDLOWkv-10" target="XjHJWzj3tPjJtDDLOWkv-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XjHJWzj3tPjJtDDLOWkv-10" value="调拨" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="470" width="120" height="80" as="geometry" />
+          <mxGeometry x="870" y="460" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XjHJWzj3tPjJtDDLOWkv-16" value="&lt;div&gt;入库类型：采购入库、委外入库&lt;/div&gt;&lt;div&gt;出库类型：领料出库、委外出库&lt;br&gt;&lt;/div&gt;&lt;div&gt;保存的信息：&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;strong&gt;&lt;span class=&quot;ne-text&quot;&gt;单头&lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;ne-text&quot;&gt;：仓库id、单据类型、管理部门、供货商、客户、经手人、发货人、领料人、业务员、采购类型（现购、赊购）、合同编号、运输方式、发货地址、收货地址、总金额、已付金额&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;明细：单据号、物料类型、物料、物料属性、开票信息、报废信息、单位信息、" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="191" y="840" width="330" height="200" as="geometry" />
@@ -93,6 +96,9 @@
         </mxCell>
         <mxCell id="XjHJWzj3tPjJtDDLOWkv-33" value="&lt;div&gt;库存分析的作用是通过数据和表格直观的展示各种条件下的库存，让客户快速对当前的库存和之后采购提供数据支撑。&lt;/div&gt;&lt;div&gt;分析类型有：审核/未审核的库存单；收发表；物料信息&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="246" y="190" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XjHJWzj3tPjJtDDLOWkv-35" value="&lt;div&gt;将库存item从仓库A转移到仓库B&lt;/div&gt;&lt;div&gt;所以调拨单最主要记录的信息也是物料信息。校验只需要校验两个仓库的类型是否一致即可&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="330" width="190" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
