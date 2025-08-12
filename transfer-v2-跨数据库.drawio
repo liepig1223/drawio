@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" version="28.0.7">
   <diagram name="第 1 页" id="GjO0GAbTQwqVim4LTeIz">
-    <mxGraphModel dx="1427" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1011" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="SmhbG2yGJK3qt77CbI1s-1" value="转帐开始" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="439.94" y="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SmhbG2yGJK3qt77CbI1s-2" value="发起转账，扣除发起者账户余额，生成转帐记录，记录本地消息表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="SmhbG2yGJK3qt77CbI1s-2" value="发起转账，（DB-A事务：扣除发起者账户余额，生成转帐记录，记录本地消息表）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="409.94" y="280" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="uqdjYC-jQz3gS75na-5R-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SmhbG2yGJK3qt77CbI1s-4" target="uqdjYC-jQz3gS75na-5R-3">
@@ -38,6 +38,9 @@
         <mxCell id="uqdjYC-jQz3gS75na-5R-3" value="发送是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="444.94" y="510" width="110" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="uqdjYC-jQz3gS75na-5R-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uqdjYC-jQz3gS75na-5R-8" target="uqdjYC-jQz3gS75na-5R-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uqdjYC-jQz3gS75na-5R-8" value="MQ持久化保存消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="409.94" y="610" width="180" height="50" as="geometry" />
         </mxCell>
@@ -49,11 +52,34 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="uqdjYC-jQz3gS75na-5R-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uqdjYC-jQz3gS75na-5R-12" target="uqdjYC-jQz3gS75na-5R-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqdjYC-jQz3gS75na-5R-23" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uqdjYC-jQz3gS75na-5R-22">
+          <mxGeometry x="-0.2824" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="uqdjYC-jQz3gS75na-5R-12" value="消息是否过期（延迟队列）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="422.44" y="690" width="155" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uqdjYC-jQz3gS75na-5R-13" value="进入死信队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uqdjYC-jQz3gS75na-5R-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uqdjYC-jQz3gS75na-5R-13" target="uqdjYC-jQz3gS75na-5R-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqdjYC-jQz3gS75na-5R-13" value="进入死信队列(补偿服务)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uqdjYC-jQz3gS75na-5R-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uqdjYC-jQz3gS75na-5R-21" target="uqdjYC-jQz3gS75na-5R-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqdjYC-jQz3gS75na-5R-21" value="消费消息，进行入帐。（DB-B事务：账户加余额，添加一行转帐记录）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="409.94" y="800" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uqdjYC-jQz3gS75na-5R-24" value="发送转帐确认消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="409.94" y="920" width="180.06" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uqdjYC-jQz3gS75na-5R-26" value="消费补偿消息，(DB-A事务：账户余额补偿，修改转帐记录为作废，删除本地消息表记录)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="795" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
