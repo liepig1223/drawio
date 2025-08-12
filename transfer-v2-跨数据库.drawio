@@ -1,20 +1,34 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" version="28.0.7">
   <diagram name="第 1 页" id="GjO0GAbTQwqVim4LTeIz">
-    <mxGraphModel dx="1213" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1427" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SmhbG2yGJK3qt77CbI1s-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SmhbG2yGJK3qt77CbI1s-1" target="SmhbG2yGJK3qt77CbI1s-2">
+        <mxCell id="SmhbG2yGJK3qt77CbI1s-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SmhbG2yGJK3qt77CbI1s-1" target="SmhbG2yGJK3qt77CbI1s-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SmhbG2yGJK3qt77CbI1s-1" value="转帐开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="80" width="120" height="80" as="geometry" />
+        <mxCell id="SmhbG2yGJK3qt77CbI1s-1" value="转帐开始" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="140" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SmhbG2yGJK3qt77CbI1s-2" value="发起转账，扣除发起者账户余额，生成转帐记录，记录本地消息表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="200" width="180" height="70" as="geometry" />
+        <mxCell id="SmhbG2yGJK3qt77CbI1s-2" value="发起转账，扣除发起者账户余额，生成转帐记录，记录本地消息表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="260" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="SmhbG2yGJK3qt77CbI1s-4" value="定时任务查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="340" width="180" height="80" as="geometry" />
+        <mxCell id="uqdjYC-jQz3gS75na-5R-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SmhbG2yGJK3qt77CbI1s-4" target="uqdjYC-jQz3gS75na-5R-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SmhbG2yGJK3qt77CbI1s-4" value="定时任务查询本地消息表,发送到mq" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="380" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uqdjYC-jQz3gS75na-5R-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uqdjYC-jQz3gS75na-5R-3" target="SmhbG2yGJK3qt77CbI1s-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqdjYC-jQz3gS75na-5R-6" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uqdjYC-jQz3gS75na-5R-5">
+          <mxGeometry x="0.1115" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqdjYC-jQz3gS75na-5R-3" value="发送是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="490" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
