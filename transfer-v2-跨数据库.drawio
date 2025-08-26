@@ -78,11 +78,14 @@
         <mxCell id="uqdjYC-jQz3gS75na-5R-24" value="发送转帐确认消息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="409.94" y="920" width="180.06" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uqdjYC-jQz3gS75na-5R-26" value="消费补偿消息，(DB-A事务：账户余额补偿，修改转帐记录为作废，删除本地消息表记录)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="uqdjYC-jQz3gS75na-5R-26" value="消费补偿消息，" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="165" y="795" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BID7E0cVBiKPs0qjH9wv-2" value="修改本地消息表状态为已发送" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="699.94" y="602.5" width="170.06" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="BID7E0cVBiKPs0qjH9wv-5" value="&lt;div&gt;服务A:发起转帐、定时任务扫描本地消息表发送消息到mq&lt;/div&gt;&lt;div&gt;服务B:消费入帐消息进行入帐操作、处理转帐超时消息&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="659" y="20" width="350" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
