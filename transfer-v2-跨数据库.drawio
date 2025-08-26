@@ -38,7 +38,7 @@
         <mxCell id="uqdjYC-jQz3gS75na-5R-3" value="发送是否成功" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="444.94" y="510" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uqdjYC-jQz3gS75na-5R-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uqdjYC-jQz3gS75na-5R-8" target="uqdjYC-jQz3gS75na-5R-12" edge="1">
+        <mxCell id="BID7E0cVBiKPs0qjH9wv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqdjYC-jQz3gS75na-5R-8" target="BID7E0cVBiKPs0qjH9wv-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uqdjYC-jQz3gS75na-5R-8" value="MQ持久化保存消息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -81,8 +81,8 @@
         <mxCell id="uqdjYC-jQz3gS75na-5R-26" value="消费补偿消息，(DB-A事务：账户余额补偿，修改转帐记录为作废，删除本地消息表记录)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="165" y="795" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BID7E0cVBiKPs0qjH9wv-1" value="测试共享链接" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="450" width="60" height="30" as="geometry" />
+        <mxCell id="BID7E0cVBiKPs0qjH9wv-2" value="修改本地消息表状态为已发送" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="699.94" y="602.5" width="170.06" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
