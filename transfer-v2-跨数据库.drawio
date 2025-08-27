@@ -108,7 +108,7 @@
         <mxCell id="h-HuT5WNk-6U26YwNr8J-3" value="消息消费表存在这条消息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="167.41" y="900" width="165.06" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h-HuT5WNk-6U26YwNr8J-5" value="消息消费表插入数据，状态为“作废”。交易表写入一行“作废&quot;的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-5" value="消息消费表插入数据，状态为“作废”(status=2)。交易表写入一行“作废&quot;的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="189.94" y="1030" width="120.06" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-8" value="因为幂等性，不做处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -120,8 +120,10 @@
         <mxCell id="h-HuT5WNk-6U26YwNr8J-11" value="消费入帐消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="439.88" y="840" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h-HuT5WNk-6U26YwNr8J-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-12" target="h-HuT5WNk-6U26YwNr8J-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-12" target="h-HuT5WNk-6U26YwNr8J-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1010" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-18" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-HuT5WNk-6U26YwNr8J-15">
           <mxGeometry x="-0.5229" y="-2" relative="1" as="geometry">
@@ -139,11 +141,36 @@
         <mxCell id="h-HuT5WNk-6U26YwNr8J-12" value="消息消费表存在这条消息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="417.35" y="930" width="165.06" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h-HuT5WNk-6U26YwNr8J-14" value="因为幂等性，不做处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1010" width="120" height="60" as="geometry" />
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-16" target="h-HuT5WNk-6U26YwNr8J-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h-HuT5WNk-6U26YwNr8J-16" value="消息消费表插入数据，状态为入帐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-16" value="消息消费表插入数据，状态为&quot;已消费&quot;(status=0).入帐(写入消费记录表，账户余额增加)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="429.91" y="1060" width="139.94" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-20" target="h-HuT5WNk-6U26YwNr8J-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-30" value="status==0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-HuT5WNk-6U26YwNr8J-29">
+          <mxGeometry x="-0.1127" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-20" target="h-HuT5WNk-6U26YwNr8J-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-32" value="&lt;div&gt;status==1||&lt;/div&gt;&lt;div&gt;status==2&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-HuT5WNk-6U26YwNr8J-31">
+          <mxGeometry x="-0.3111" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-20" value="消息状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1020" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-21" value="不处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1110" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-24" value="发送入帐确认消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="439.94" y="1170" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
