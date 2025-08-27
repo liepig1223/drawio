@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-76" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1500" width="1070" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-75" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="700" width="1200" height="760" as="geometry" />
+        </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-1" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="250" y="380" width="690" height="300" as="geometry" />
         </mxCell>
@@ -74,7 +80,7 @@
         <mxCell id="uqdjYC-jQz3gS75na-5R-13" value="进入死信队列(补偿服务)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="113" y="730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uqdjYC-jQz3gS75na-5R-26" value="消费补偿消息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;" parent="1" vertex="1">
+        <mxCell id="uqdjYC-jQz3gS75na-5R-26" value="消费补偿消息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="90.47" y="830" width="165.06" height="45" as="geometry" />
         </mxCell>
         <mxCell id="BID7E0cVBiKPs0qjH9wv-2" value="修改本地消息表状态为已发送" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
