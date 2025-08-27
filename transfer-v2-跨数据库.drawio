@@ -312,6 +312,12 @@
         <mxCell id="h-HuT5WNk-6U26YwNr8J-74" value="ack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="1810" width="60" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-77" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="470" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-78" value="最好将左右两个服务做拆分，避免两个服务都使用不了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1015" width="100" height="55" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
