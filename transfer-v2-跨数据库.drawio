@@ -235,14 +235,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h-HuT5WNk-6U26YwNr8J-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-55" target="h-HuT5WNk-6U26YwNr8J-57">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="h-HuT5WNk-6U26YwNr8J-54" value="status==3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-HuT5WNk-6U26YwNr8J-53">
-          <mxGeometry x="-0.4081" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-55" value="消息状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="164.91000000000003" y="1460" width="130" height="60" as="geometry" />
         </mxCell>
@@ -250,7 +242,18 @@
           <mxGeometry x="169.96999999999997" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-57" value="不处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="336.91" y="1520" width="93" height="60" as="geometry" />
+          <mxGeometry x="20" y="1510" width="93" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-55" target="h-HuT5WNk-6U26YwNr8J-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="1520" as="sourcePoint" />
+            <mxPoint x="422" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-59" value="status==3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-HuT5WNk-6U26YwNr8J-58">
+          <mxGeometry x="-0.4081" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
