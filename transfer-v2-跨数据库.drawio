@@ -104,11 +104,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-3" target="h-HuT5WNk-6U26YwNr8J-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-10" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-HuT5WNk-6U26YwNr8J-9">
+          <mxGeometry x="0.093" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-3" value="消息消费表存在这条消息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="167.41" y="900" width="165.06" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-5" value="消息消费表插入数据，状态为“作废”。交易表写入一行“作废&quot;的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="189.94" y="1030" width="120.06" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-8" value="因为幂等性，不做处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="47" y="970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
