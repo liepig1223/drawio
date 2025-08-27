@@ -169,8 +169,14 @@
         <mxCell id="h-HuT5WNk-6U26YwNr8J-21" value="不处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="1110" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-24" target="h-HuT5WNk-6U26YwNr8J-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-24" value="发送入帐确认消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="439.94" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-33" value="反写消费消息表状态为&quot;已发送确认消息&quot;(status=1)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="439.94" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
