@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" version="28.1.1">
   <diagram name="第 1 页" id="GjO0GAbTQwqVim4LTeIz">
-    <mxGraphModel dx="1416" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="5875" dy="1384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,13 +72,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uqdjYC-jQz3gS75na-5R-13" value="进入死信队列(补偿服务)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="189.94" y="730" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="h-HuT5WNk-6U26YwNr8J-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uqdjYC-jQz3gS75na-5R-26" target="h-HuT5WNk-6U26YwNr8J-3">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="113" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uqdjYC-jQz3gS75na-5R-26" value="消费补偿消息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;" parent="1" vertex="1">
-          <mxGeometry x="167.41" y="830" width="165.06" height="45" as="geometry" />
+          <mxGeometry x="90.47" y="830" width="165.06" height="45" as="geometry" />
         </mxCell>
         <mxCell id="BID7E0cVBiKPs0qjH9wv-2" value="修改本地消息表状态为已发送" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="699.94" y="602.5" width="170.06" height="65" as="geometry" />
@@ -106,19 +103,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-3" value="消息消费表存在这条消息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="167.41" y="900" width="165.06" height="80" as="geometry" />
+          <mxGeometry x="84.94" y="930" width="165.06" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-5" target="h-HuT5WNk-6U26YwNr8J-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-5" value="消息消费表插入数据，状态为“作废”(status=2)。交易表写入一行“作废&quot;的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="189.94" y="1030" width="120.06" height="80" as="geometry" />
+          <mxGeometry x="107.47" y="1060" width="120.06" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-8" value="因为幂等性，不做处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="47" y="970" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="h-HuT5WNk-6U26YwNr8J-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-11" target="h-HuT5WNk-6U26YwNr8J-12">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-35.47" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-11" value="消费入帐消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="439.88" y="840" width="120" height="60" as="geometry" />
@@ -216,10 +210,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-45" value="发送交易作废消息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1140" width="120" height="60" as="geometry" />
+          <mxGeometry x="107.53" y="1170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-47" value="反写消费消息表状态为&quot;已发送作废消息&quot;(status=3)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1240" width="120" height="60" as="geometry" />
+          <mxGeometry x="107.53" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-50" target="h-HuT5WNk-6U26YwNr8J-55">
           <mxGeometry relative="1" as="geometry" />
@@ -256,7 +250,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-60" value="ack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="469.88" y="1350" width="60" height="40" as="geometry" />
+          <mxGeometry x="470" y="1380" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-61" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="920" as="sourcePoint" />
+            <mxPoint x="800" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-62" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="1360" as="sourcePoint" />
+            <mxPoint x="795" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-63" value="&lt;div&gt;能正常执行结束就ack，&lt;/div&gt;&lt;div&gt;如果是业务逻辑错误就按情况考虑是否重新入队，&lt;/div&gt;&lt;div&gt;如果是系统异常则重新入队&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="940" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-64" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="1360" as="sourcePoint" />
+            <mxPoint x="360" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-66" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="920" as="sourcePoint" />
+            <mxPoint x="360" y="920" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
