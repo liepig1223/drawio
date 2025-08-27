@@ -178,6 +178,37 @@
         <mxCell id="h-HuT5WNk-6U26YwNr8J-33" value="反写消费消息表状态为&quot;已发送确认消息&quot;(status=1)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="439.94" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-35" target="h-HuT5WNk-6U26YwNr8J-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-35" value="消费确认入帐消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="439.88" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-37" target="h-HuT5WNk-6U26YwNr8J-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-41" value="status==2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-HuT5WNk-6U26YwNr8J-40">
+          <mxGeometry x="-0.3019" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h-HuT5WNk-6U26YwNr8J-37" target="h-HuT5WNk-6U26YwNr8J-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-44" value="status==1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-HuT5WNk-6U26YwNr8J-43">
+          <mxGeometry x="-0.4081" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-37" value="消息状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434.94" y="1470" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-39" value="生产者消息表修改状态为&quot;完成&quot;(status=1),交易表修改状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-42" value="不处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="606.94" y="1530" width="93" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
