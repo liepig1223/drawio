@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" version="28.1.2">
   <diagram name="第 1 页" id="GjO0GAbTQwqVim4LTeIz">
-    <mxGraphModel dx="4716" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4513" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -194,7 +194,7 @@
         <mxCell id="h-HuT5WNk-6U26YwNr8J-37" value="消息状态" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="434.94" y="1610" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h-HuT5WNk-6U26YwNr8J-39" value="生产者消息表修改状态为&quot;完成&quot;(status=1),交易表修改状态,账户入帐" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-39" value="生产者消息表修改状态为&quot;完成&quot;(status=1),交易表修改状态" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-42" value="不处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -255,8 +255,8 @@
             <mxPoint x="795" y="1360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h-HuT5WNk-6U26YwNr8J-63" value="&lt;div&gt;能正常执行结束就ack，&lt;/div&gt;&lt;div&gt;如果是业务逻辑错误就按情况考虑是否重新入队，&lt;/div&gt;&lt;div&gt;如果是系统异常则重新入队&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="770" y="940" width="290" height="60" as="geometry" />
+        <mxCell id="h-HuT5WNk-6U26YwNr8J-63" value="&lt;div&gt;1.能正常执行结束就ack&lt;/div&gt;&lt;div&gt;2.如果是业务逻辑错误就取消交易，发送交易作废消息&lt;/div&gt;&lt;div&gt;3.如果是系统异常则重新入队&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="760" y="940" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h-HuT5WNk-6U26YwNr8J-64" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
