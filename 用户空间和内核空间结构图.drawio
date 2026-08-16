@@ -1,9 +1,104 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="h3pHj5GEDrJvEtXnv_rk">
-    <mxGraphModel dx="1022" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="564" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="106" width="718" x="130" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="310" width="718" x="130" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="106" width="718" x="130" y="533" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-10" edge="1" parent="1" source="RXrS3KJ-6H2Ele6Xe1Zw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="RXrS3KJ-6H2Ele6Xe1Zw-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="392.8" y="93" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="用户应用" vertex="1">
+          <mxGeometry height="47" width="423" x="262" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="用户应用依赖库" vertex="1">
+          <mxGeometry height="30" width="130" x="655" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="用户空间" vertex="1">
+          <mxGeometry height="30" width="60" x="144" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="系统调用接口" vertex="1">
+          <mxGeometry height="47" width="523" x="262" y="197" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="内核空间" vertex="1">
+          <mxGeometry height="30" width="60" x="144" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-9" edge="1" parent="1" source="RXrS3KJ-6H2Ele6Xe1Zw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.876;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" target="RXrS3KJ-6H2Ele6Xe1Zw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-22" edge="1" parent="1" source="RXrS3KJ-6H2Ele6Xe1Zw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="RXrS3KJ-6H2Ele6Xe1Zw-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300.5" y="472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-23" edge="1" parent="1" source="RXrS3KJ-6H2Ele6Xe1Zw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RXrS3KJ-6H2Ele6Xe1Zw-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="426.5" y="472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-24" edge="1" parent="1" source="RXrS3KJ-6H2Ele6Xe1Zw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RXrS3KJ-6H2Ele6Xe1Zw-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="558.5" y="472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-25" edge="1" parent="1" source="RXrS3KJ-6H2Ele6Xe1Zw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RXrS3KJ-6H2Ele6Xe1Zw-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="699.5" y="472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="设备驱动" vertex="1">
+          <mxGeometry height="47" width="523" x="262" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="内存管理" vertex="1">
+          <mxGeometry height="60" width="178" x="286" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="虚拟文件系统管理" vertex="1">
+          <mxGeometry height="60" width="244" x="518" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进程管理" vertex="1">
+          <mxGeometry height="60" width="157" x="286" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="网络协议栈" vertex="1">
+          <mxGeometry height="60" width="157" x="464" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="..." vertex="1">
+          <mxGeometry height="60" width="103" x="637" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="硬件" vertex="1">
+          <mxGeometry height="30" width="60" x="144" y="571" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="cpu" vertex="1">
+          <mxGeometry height="63" width="81" x="260" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="物理内存" vertex="1">
+          <mxGeometry height="63" width="81" x="386" y="554.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="磁盘" vertex="1">
+          <mxGeometry height="63" width="81" x="518" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="RXrS3KJ-6H2Ele6Xe1Zw-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="网络适配器" vertex="1">
+          <mxGeometry height="63" width="81" x="659" y="552" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
